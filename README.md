@@ -34,11 +34,11 @@ The development of this Language Learning Application adhered to agile principle
 
 | ![LoginPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/4f3742d4-1314-4ed0-a9a5-ed06c3a15b3f) | ![SignUp Page](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/dc34d142-144c-40a6-b7d0-d519b8b920d1) |
 | --- | --- |
-| Login Page Description | Sign Up Page Description |
+| Login Page  | Sign Up Page  |
 | ![HomePage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/870094af-a48d-45cd-9e34-2ff1a0ac3005) | ![LanguageSelection Page](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/84b09a3d-a75e-44e1-837c-f3f4296b7f57) |
-| Home Page Description | Language Selection Page Description |
+| Home Page  | Language Selection Page  |
 | ![TranslatorPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/7a524ad6-8b8b-46e0-8e16-a36b8aeda436) | |
-| Translator Page Description | |
+| Translator Page  | |
 
 
 
