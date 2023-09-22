@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836789210280",
+    "project_id": "learnle",
+    "storage_bucket": "learnle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836789210280:android:1291f04b5d34b54ee8469d",
+        "android_client_info": {
+          "package_name": "com.example.learnle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836789210280-lsr82d6v2m4fg9svg9vb5n0ld9bj72ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCASZYl1LH1F7IOkVABnEBsI4FocIzkiSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836789210280-lsr82d6v2m4fg9svg9vb5n0ld9bj72ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
