@@ -31,9 +31,15 @@ The Language Learning Application is a dynamic and innovative mobile application
 The development of this Language Learning Application adhered to agile principles, emphasizing iterative development, continuous integration, and user feedback. This iterative approach allowed for rapid improvements and ensured that the app met evolving user needs and expectations.
 
 **APP DEMO**
-![Login Page](AppDemo/LoginPage.png)
+![LoginPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/4f3742d4-1314-4ed0-a9a5-ed06c3a15b3f)
 
-**Conclusion:**![LoginPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/4f3742d4-1314-4ed0-a9a5-ed06c3a15b3f)
+
+
+
+
+
+
+**Conclusion:**
 
 
 The Language Learning Application is an exciting venture into the world of language acquisition, offering an interactive and accessible platform for learners of all levels. Its user-centric design, robust feature set, and integration of emerging technologies make it a valuable tool for anyone seeking to expand their language skills. This project embodies the synergy between education and technology, opening doors to new linguistic horizons.
