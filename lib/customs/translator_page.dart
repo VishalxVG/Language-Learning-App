@@ -33,6 +33,9 @@ class _TranslationPageState extends State<TranslationPage> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             TextField(
+              // style: TextStyle(
+              //   color: Colors.green,
+              // ),
               decoration: InputDecoration(
                 labelText: 'Enter text to translate',
               ),
@@ -45,6 +48,7 @@ class _TranslationPageState extends State<TranslationPage> {
             SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: _translate,
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               child: Text('Translate'),
             ),
             SizedBox(height: 16.0),

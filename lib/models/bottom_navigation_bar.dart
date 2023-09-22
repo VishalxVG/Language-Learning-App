@@ -38,12 +38,12 @@ class _NavigationPageState extends State<NavigationPage> {
     return ElevatedButton(
       onPressed: () => _onCategorySelected(category),
       style: ElevatedButton.styleFrom(
-        primary: isSelected ? Colors.blue : Colors.white,
+        primary: isSelected ? Color.fromARGB(255, 78, 220, 128) : Colors.white,
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
           side: BorderSide(
-            color: isSelected ? Colors.blue : Colors.grey,
+            color: isSelected ? Color.fromARGB(255, 78, 220, 128) : Colors.grey,
           ),
         ),
       ),
@@ -92,86 +92,15 @@ class _NavigationPageState extends State<NavigationPage> {
             padding: const EdgeInsets.all(20.0),
             child: ListView(
               children: [
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => AlphabetsPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                          title: Text(
-                            "Alphabets",
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
-                            textAlign: TextAlign.right,
-                          ),
-                          tileColor: Colors.blueGrey),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => CommonPhrasesPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                        title: Text(
-                          'CommonPharases',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
-                          textAlign: TextAlign.right,
-                        ),
-                        tileColor: Colors.blueGrey,
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => SpanishPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                        title: Text(
-                          'Numbers and counting',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
-                          textAlign: TextAlign.right,
-                        ),
-                        tileColor: Colors.blueGrey,
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () => print('Item 4 pressed'),
-                  child: const ListTile(
-                    title: Text('Item 4'),
-                  ),
-                ),
+                _box1(),
+                _box2(),
+                _box3(),
+                // GestureDetector(
+                //   onTap: () => print('Item 4 pressed'),
+                //   child: const ListTile(
+                //     title: Text('Item 4'),
+                //   ),
+                // ),
               ],
             ),
           ),
@@ -183,86 +112,15 @@ class _NavigationPageState extends State<NavigationPage> {
             padding: const EdgeInsets.all(20.0),
             child: ListView(
               children: [
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => SpanishPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                          title: Text(
-                            "Food",
-                            style: TextStyle(
-                                fontSize: 20, fontWeight: FontWeight.bold),
-                            textAlign: TextAlign.right,
-                          ),
-                          tileColor: Colors.blueGrey),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => AnimalsPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 8.0),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                        title: Text(
-                          'Animals',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
-                          textAlign: TextAlign.right,
-                        ),
-                        tileColor: Colors.blueGrey,
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => SpanishMoneyPage(),
-                      ),
-                    );
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: Container(
-                      height: 180,
-                      child: const ListTile(
-                        title: Text(
-                          'Money',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
-                          textAlign: TextAlign.right,
-                        ),
-                        tileColor: Colors.blueGrey,
-                      ),
-                    ),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: () => print('Item 4 pressed'),
-                  child: const ListTile(
-                    title: Text('Item 4'),
-                  ),
-                ),
+                _1box1(),
+                _1box2(),
+                _1box3(),
+                // GestureDetector(
+                //   onTap: () => print('Item 4 pressed'),
+                //   child: const ListTile(
+                //     title: Text('Item 4'),
+                //   ),
+                // ),
               ],
             ),
           ),
@@ -360,6 +218,166 @@ class _NavigationPageState extends State<NavigationPage> {
           child: Text('Please select a the level of content'),
         );
     }
+  }
+
+  GestureDetector _1box3() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SpanishMoneyPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 10),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+            title: Text(
+              'Money',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.right,
+            ),
+            tileColor: Colors.blueGrey,
+          ),
+        ),
+      ),
+    );
+  }
+
+  GestureDetector _1box2() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => AnimalsPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 8.0),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+            title: Text(
+              'Animals',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.right,
+            ),
+            tileColor: Colors.blueGrey,
+          ),
+        ),
+      ),
+    );
+  }
+
+  GestureDetector _1box1() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SpanishPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 8.0),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+              title: Text(
+                "Food",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.right,
+              ),
+              tileColor: Colors.blueGrey),
+        ),
+      ),
+    );
+  }
+
+  GestureDetector _box3() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SpanishPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 10),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+            title: Text(
+              'Numbers and counting',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.right,
+            ),
+            tileColor: Colors.blueGrey,
+          ),
+        ),
+      ),
+    );
+  }
+
+  GestureDetector _box2() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => CommonPhrasesPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 8.0),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+            title: Text(
+              'CommonPharases',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.right,
+            ),
+            tileColor: Colors.blueGrey,
+          ),
+        ),
+      ),
+    );
+  }
+
+  GestureDetector _box1() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => AlphabetsPage(),
+          ),
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 8.0),
+        child: Container(
+          height: 180,
+          child: const ListTile(
+              title: Text(
+                "Alphabets",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.right,
+              ),
+              tileColor: Colors.blueGrey),
+        ),
+      ),
+    );
   }
 
   @override

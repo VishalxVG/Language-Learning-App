@@ -15,15 +15,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'LearnLE',
-      // theme: ThemeData(
-      //   // primarySwatch: Colors.green,
-      //   backgroundColor: Colors.white,
-      //   appBarTheme: const AppBarTheme(color: Colors.white, elevation: 0),
-      //   visualDensity: VisualDensity.adaptivePlatformDensity,
-      // ),
+      theme: ThemeData(
+        // primarySwatch: Colors.green,
+        backgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(color: Colors.white, elevation: 0),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
       home: LoginScreen(),
     );
   }
