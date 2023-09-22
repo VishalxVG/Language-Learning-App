@@ -33,7 +33,7 @@ The development of this Language Learning Application adhered to agile principle
 **APP DEMO**
 
 
- - ![LoginPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/4f3742d4-1314-4ed0-a9a5-ed06c3a15b3f)
+  ![LoginPage](https://github.com/VishalxVG/Language-Learning-App/assets/104559557/4f3742d4-1314-4ed0-a9a5-ed06c3a15b3f)
 
 
 
